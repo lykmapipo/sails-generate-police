@@ -3,9 +3,6 @@
     "version": "0.1.0",
     "description": "A sails-police generator",
     "main": "index.js",
-    "scripts": {
-        "test": "./node_modules/.bin/mocha"
-    },
     "repository": {
         "type": "git",
         "url": "git://github.com/lykmapipo/sails-generate-police.git"
@@ -17,7 +14,32 @@
         "sails",
         "generate",
         "plugin",
-        "sails-police"
+        "sails-police",
+        "sails",
+        "auth",
+        "user management",
+        "account",
+        "authenticable",
+        "authentication",
+        "authenticate",
+        "login",
+        "signin",
+        "confirmable",
+        "confirm",
+        "lockable",
+        "lock",
+        "unlock",
+        "recoverable",
+        "forget password",
+        "recover password",
+        "registerable",
+        "register",
+        "registration",
+        "trackable",
+        "track",
+        "security",
+        "signup",
+        "password"
     ],
     "author": "Lally Elias",
     "license": "MIT",
@@ -26,13 +48,7 @@
     },
     "homepage": "https://github.com/lykmapipo/sails-generate-police",
     "dependencies": {
-        "lodash": ">=2.4.x",
-        "merge-defaults": ">=0.1.0"
-    },
-    "devDependencies": {
-        "sails-generate": "*",
-        "reportback": "*",
-        "fs-extra": "*"
+        "fs-extra": "^0.16.4"
     },
     "sailsGenerator": {
         "type": "sails-generate-police",
