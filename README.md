@@ -6,6 +6,10 @@
 
 A generator which quick start your development with [sails-police](https://github.com/lykmapipo/sails-police)
 
+*Note: This requires Sails v0.11.0+.  If v0.11.0+ isn't published to NPM yet, you'll need to install it via Github.*
+
+*Warning!: Use this generator on fresh sails project, othewise consider the use of [Quick Setup](https://github.com/lykmapipo/sails-police#quick-setup)*
+
 ## Installation
 ```sh
 $ npm install --save-dev sails-generate-police
