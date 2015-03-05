@@ -1,0 +1,42 @@
+{
+    "name": "sails-generate-police",
+    "version": "0.1.0",
+    "description": "A sails-police generator",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/lykmapipo/sails-generate-police.git"
+    },
+    "keywords": [
+        "sails-generate-police",
+        "generator",
+        "police",
+        "sails",
+        "generate",
+        "plugin",
+        "sails-police"
+    ],
+    "author": "Lally Elias",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lykmapipo/sails-generate-police/issues"
+    },
+    "homepage": "https://github.com/lykmapipo/sails-generate-police",
+    "dependencies": {
+        "lodash": ">=2.4.x",
+        "merge-defaults": ">=0.1.0"
+    },
+    "devDependencies": {
+        "sails-generate": "*",
+        "reportback": "*",
+        "fs-extra": "*"
+    },
+    "sailsGenerator": {
+        "type": "sails-generate-police",
+        "behavior": "overrides `sails generate sails-generate-police`",
+        "sailsVersion": "~0.10.0"
+    }
+}
